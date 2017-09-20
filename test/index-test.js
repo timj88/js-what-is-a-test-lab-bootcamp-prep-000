@@ -8,14 +8,14 @@ describe('what-is-a-test', () => {
   })
 
 
-  describe('Height', () => {
+  describe('Height', (74) => {
     it('is less than 80', () => {
       expect(index.height).toBeLessThan(80)
     })
   })
 
   describe('Message', () => {
-    it('gives the name and height', (Susan) => {
+    it('gives the name and height', () => {
       expect(index.message).toInclude(index.name)
       expect(index.message).toInclude(index.height)
     })
